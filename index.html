@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Musavir Chukkan - Site Upgrade in Progress</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            background-color: #f7f9fc;
+            color: #333;
+            line-height: 1.6;
+        }
+        .container {
+            text-align: center;
+            max-width: 600px;
+            padding: 40px 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+        }
+        h1 {
+            margin-top: 0;
+            font-size: 28px;
+            color: #1a73e8;
+        }
+        p {
+            margin-bottom: 24px;
+            font-size: 16px;
+        }
+        .countdown {
+            font-size: 18px;
+            font-weight: bold;
+            margin: 30px 0;
+            color: #1a73e8;
+        }
+        .progress-bar {
+            height: 8px;
+            background-color: #e0e0e0;
+            border-radius: 4px;
+            margin-bottom: 30px;
+            overflow: hidden;
+        }
+        .progress {
+            height: 100%;
+            background-color: #1a73e8;
+            width: 75%;
+            border-radius: 4px;
+            animation: progress-animation 2s infinite;
+        }
+        .contact a {
+            color: #1a73e8;
+            text-decoration: none;
+        }
+        .contact a:hover {
+            text-decoration: underline;
+        }
+        @keyframes progress-animation {
+            0% {
+                width: 5%;
+            }
+            50% {
+                width: 75%;
+            }
+            100% {
+                width: 5%;
+            }
+        }
+        .social-links {
+            margin-top: 30px;
+        }
+        .social-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #666;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+        .social-links a:hover {
+            color: #1a73e8;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>We're Upgrading Our Website!</h1>
+        <p>We're currently working on an exciting new React-based website to serve you better. Our site will be back soon with improved features and performance.</p>
+        
+        <div class="progress-bar">
+            <div class="progress"></div>
+        </div>
+        
+        <p>The new site is almost ready. Thank you for your patience!</p>
+        
+        <div class="contact">
+            <p>Need to reach out in the meantime?</p>
+            <p>Email: <a href="mailto:contact@musavirchukkan.in">contact@musavirchukkan.in</a></p>
+        </div>
+        
+        <div class="social-links">
+            <!-- Add your social media links here -->
+            <a href="https://www.linkedin.com/in/musavirchukkan/">LinkedIn</a>
+            <a href="https://github.com/musavirchukkan">GitHub</a>
+        </div>
+    </div>
+</body>
+</html>
